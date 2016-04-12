@@ -5,6 +5,7 @@ public class Main {
     public static void main(String[] args) {
         // write your code here
         int[][] array_Ulam = new int[7][7];
+        System.out.println("Test" +array_Ulam[1][1]);
         array_Ulam = input_array(array_Ulam);
         int i = array_Ulam.length / 2, j = array_Ulam[0].length / 2 + 1;
         int counter = 2;

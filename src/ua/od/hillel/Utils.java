@@ -10,10 +10,7 @@ public class Utils {
             for (int j = 0; j<array[i].length; j++) {
                 if (j != 0)
                     System.out.print(", ");
-                if (array[i][j] < 10) {
-                    System.out.print(" "+array[i][j]);
-                } else
-                System.out.print(array[i][j]);
+                                System.out.print(array[i][j]);
             }
             System.out.println();
         }
